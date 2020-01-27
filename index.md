@@ -1,10 +1,30 @@
-## Welcome to GitHub Pages
+# Welcome to Cowboish bot's website :D
 
-You can use the [editor on GitHub](https://github.com/MohiMad/cowboishbot/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Command list :P
+
+### LogicPath commands
+We all enjoy opening essences and rolling dices, but what if youre poor and you can't open essences ingame :( ?
+  Don't worry, because Cowboish bot allows you to roll dices and get rewards to open essences and all of your data
+  will be saved in his database (Yes his cuz he aint no bot he has a life :v)
+  
+__**Command list**__
+
+``quick`` ➤ play a quick match as a survivor to get some dices
+
+``hunt`` ➤ hate being hunted? then you can hunt the survivors to get dices
+
+``roll`` ➤ roll that 4 sided dice and maybe you can get some essences
+
+``open`` ➤ open that essence you just got and see how unlucky you're
+
+``logicpath`` ➤ tells you how many essences/dice and other loot you got
+
+``daily`` ➤ get your daily rewards
+
+_______________________________________________________________________________
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
