@@ -37,12 +37,12 @@ We all enjoy opening essences and rolling dices, but what if youre poor and you 
 ### Identity V commands
 Of course! Identity v commands must be available in order for **Cowboish bot** to be an Identity V bot right?
 
-``identify`` ➤ identifies what kind of player you are ingame... more like an idv stereotypes command
+- ``identify`` ➤ identifies what kind of player you are ingame... more like an idv stereotypes command
 
-``roll20`` ➤ rolls a 20 sided dice...
+- ``roll20`` ➤ rolls a 20 sided dice...
 
-``essence`` ➤ open the previous season's essences (not included in LP commands) | available essences ("s8-1", "s8-2", "p5-1", "p5-2")
+- ``essence`` ➤ open the previous season's essences (not included in LP commands) | available essences ("s8-1", "s8-2", "p5-1", "p5-2")
 
-``randomize`` ➤ picks a random survivor/hunter for you. Maybe you're lost and dunno who to buy
+- ``randomize`` ➤ picks a random survivor/hunter for you. Maybe you're lost and dunno who to buy
 
-``idv`` ➤ sends a random post from the reddit r/Identity V
+- ``idv`` ➤ sends a random post from the reddit r/Identity V
