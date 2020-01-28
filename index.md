@@ -12,6 +12,8 @@
   <img src="https://top.gg/api/widget/owner/632291800585076761.svg" alt="Cowboish bot" />
 </a>
 
+<iframe src="https://discordapp.com/widget?id=636241255994490900&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+
 ● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
 ● Bunch of fun Identity V related commands :D
