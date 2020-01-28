@@ -1,4 +1,5 @@
-# Welcome to Cowboish bot's website :D
+# [Cowboish Bot](https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=1886780502)
+
 <a href="https://top.gg/bot/632291800585076761" >
   <img src="https://top.gg/api/widget/servers/632291800585076761.svg" alt="Cowboish bot" />
 </a>
@@ -12,6 +13,11 @@
   <img src="https://top.gg/api/widget/owner/632291800585076761.svg" alt="Cowboish bot" />
 </a>
 
+---
+<a href="https://discord.gg/YWcSukS">
+    <img src="https://img.shields.io/discord/636241255994490900.svg?colorB=Blue&logo=discord&label=Cowboish_server&style=for-the-badge" alt="Support">
+</a>
+---
 ● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
 ● Bunch of fun Identity V related commands :D
@@ -27,6 +33,7 @@ This bot has this special category which i call "Logicpath" and it's name
 describes it all, yes a logicpath system that allows you to play matches as
 both survivor or hunter, roll dices, open essences and claim some other rewards as well :D
 
+---
 
 ## Command list :P
 
