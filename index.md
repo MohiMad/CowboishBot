@@ -12,7 +12,20 @@
   <img src="https://top.gg/api/widget/owner/632291800585076761.svg" alt="Cowboish bot" />
 </a>
 
-Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
+● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
+
+● Bunch of fun Identity V related commands :D
+If you're an Idenitity V fan like i am, you will never get bored of this bot
+
+● Moderation and Ulitity commands
+Let's put the fun stuff away, this bot has a great moderation system to keep
+your server away from trolls and spammers
+You can activate welcome/leave channel and customize the message sent as well
+
+● Identity v LogicPath commands
+This bot has this special category which i call "Logicpath" and it's name
+describes it all, yes a logicpath system that allows you to play matches as
+both survivor or hunter, roll dices, open essences and claim some other rewards as well :D
 
 
 ## Command list :P
