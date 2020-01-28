@@ -46,3 +46,30 @@ Of course! Identity v commands must be available in order for **Cowboish bot** t
 - ``randomize`` ➤ picks a random survivor/hunter for you. Maybe you're lost and dunno who to buy
 
 - ``idv`` ➤ sends a random post from the reddit r/Identity V
+
+### Identity V Actions
+Identity V actions... just like any other roleplay commands but in Identity V :v
+
+- ``lasso`` ➤ Lasso your friends and carry them :D
+
+- ``bully`` ➤ Taime to bully? use dis command >:P
+
+- ``shoot`` ➤ It's dangerous to go alone.. here, shoot yo friend with this flare gun
+
+- ``stun`` ➤ Stuns the person you tagged with a pallet
+
+- ``crash`` ➤ Crashes on the tagged person (lethal crash) wai not :)
+
+- ``terrorshock`` ➤ Terrorshock you toxic friends with this command
+
+- ``blink`` ➤ Use blink on your friends and prove to them that u r not boosted
+
+### 🛠 Moderation🛠
+Commands made for moderators and admins to keep your server away from spammers/trolls
+
+- ``clear`` ➤ deletes a specified amount of messages. (max 100) | >clear 25
+
+- ``ban`` ➤ bans a specified member from joining the server. 
+- ``kick`` ➤ kicks a specified member from the guild. 
+
+- ``mute`` ➤ mutes the tagged person.
