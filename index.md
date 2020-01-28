@@ -22,7 +22,7 @@ We all enjoy opening essences and rolling dices, but what if youre poor and you 
   Don't worry, because Cowboish bot allows you to roll dices and get rewards to open essences and all of your data
   will be saved in his database (Yes his cuz he aint no bot he has a life :v)
 
-- ``quick`` ➤ Play a quick match as a survivor to get some dices |
+- ``>quick`` ➤ Play a quick match as a survivor to get some dices |
 
 - ``hunt`` ➤ Hate being hunted? well you can hunt the survivors to get dices instead >:/ |
 
@@ -74,3 +74,24 @@ Commands made for moderators and admins to keep your server away from spammers/t
 - ``kick`` ➤ kicks a specified member from the guild. |
 
 - ``mute`` ➤ mutes the tagged person. |
+
+### ⚙ Config ⚙
+Commands that has to do with the bot :)
+                            
+- ``help`` ➤ Shows a list of the bot's commands... |
+
+- ``info`` ➤ Sends general info about the bot |
+
+- ``guilds`` ➤ Shows how many servers the bot is in | Servers, users and channels |
+
+- ``ping`` ➤ Shows the bot's ping in ms |
+
+### Ultity commands (Probably typed it wrong xD)
+Commands that helps you to check informations and settings for your serva :v 
+
+- ``userinfo`` ➤ Shows the user's information | >userinfo <@TagHere>
+
+- ``serverinfo`` ➤ Shows the server's info |
+
+- ``setup`` ➤ Setup multiple stuff for your server | greetings, welcomeMessage, goodbye and leaveMessage
+
