@@ -17,7 +17,7 @@
 <a href="https://discord.gg/YWcSukS">
     <img src="https://img.shields.io/discord/636241255994490900.svg?colorB=Blue&logo=discord&label=Cowboish_server&style=for-the-badge" alt="Support">
 </a>
----
+
 ● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
 ● Bunch of fun Identity V related commands :D
@@ -37,6 +37,7 @@ both survivor or hunter, roll dices, open essences and claim some other rewards 
 
 ## Command list :P
 
+---
 ### LogicPath commands
 We all enjoy opening essences and rolling dices, but what if youre poor and you can't open essences ingame :( ?
   Don't worry, because Cowboish bot allows you to roll dices and get rewards to open essences and all of your data
@@ -54,6 +55,7 @@ We all enjoy opening essences and rolling dices, but what if youre poor and you 
 
 - ``>daily`` ➤ Get a daily reward :D | *200* clues and *3* dices
 
+---
 ### Identity V commands
 Of course! Identity v commands must be available in order for **Cowboish bot** to be an Identity V bot right?
 
@@ -67,6 +69,7 @@ Of course! Identity v commands must be available in order for **Cowboish bot** t
 
 - ``>idv`` ➤ sends a random post from the reddit r/Identity V |
 
+---
 ### Identity V Actions
 Identity V actions... just like any other roleplay commands but in Identity V :v
 
@@ -84,6 +87,7 @@ Identity V actions... just like any other roleplay commands but in Identity V :v
 
 - ``>blink`` ➤ Use blink on your friends and prove to them that u r not boosted |
 
+---
 ### 🛠 Moderation🛠
 Commands made for moderators and admins to keep your server away from spammers/trolls
 
@@ -95,6 +99,7 @@ Commands made for moderators and admins to keep your server away from spammers/t
 
 - ``>mute`` ➤ mutes the tagged person. |
 
+---
 ### ⚙ Config ⚙
 Commands that has to do with the bot :)
                             
@@ -106,6 +111,7 @@ Commands that has to do with the bot :)
 
 - ``>ping`` ➤ Shows the bot's ping in ms |
 
+---
 ### Ultity commands (Probably typed it wrong xD)
 Commands that helps you to check informations and settings for your serva :v 
 
