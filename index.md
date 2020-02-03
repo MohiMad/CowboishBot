@@ -1,4 +1,4 @@
-# [Cowboish Bot](https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=1886780502)
+# [Cowboish Bot](https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102)
 
 <a href="https://top.gg/bot/632291800585076761" >
   <img src="https://top.gg/api/widget/servers/632291800585076761.svg" alt="Cowboish bot" />
