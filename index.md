@@ -21,9 +21,9 @@
 ● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
 ● Bunch of fun Identity V related commands :D
-If you're an Idenitity V fan like i am, you will never get bored of this bot
+If you're an Identity V fan like i am, you will never get bored of this bot
 
-● Moderation and Ulitity commands
+● Moderation and Utility commands
 Let's put the fun stuff away, this bot has a great moderation system to keep
 your server away from trolls and spammers
 You can activate welcome/leave channel and customize the message sent as well
@@ -69,6 +69,8 @@ Of course! Identity v commands must be available in order for **Cowboish bot** t
 
 - ``>idv`` ➤ sends a random post from the reddit r/Identity V |
 
+- ``>ingamechat`` ➤ Send a message to the ingame chat | image manipulation
+
 ---
 ### Identity V Actions
 Identity V actions... just like any other roleplay commands but in Identity V :v
@@ -86,6 +88,8 @@ Identity V actions... just like any other roleplay commands but in Identity V :v
 - ``>terrorshock`` ➤ Terrorshock you toxic friends with this command |
 
 - ``>blink`` ➤ Use blink on your friends and prove to them that u r not boosted |
+
+- ``>chair`` ➤ Chair yo friends using this command :D |
 
 ---
 ### 🛠 Moderation🛠
