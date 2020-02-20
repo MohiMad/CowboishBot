@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/discord/636241255994490900.svg?colorB=Blue&logo=discord&label=Cowboish_server&style=for-the-badge" alt="Support">
 </a>
 
-![Dicord](pics/blurdiscord.jpg)
+![https://discord.gg/YWcSukS](pics/blurdiscord.jpg)
 
 ● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
