@@ -4,9 +4,6 @@
   <img src="https://top.gg/api/widget/servers/632291800585076761.svg" alt="Cowboish bot" />
 </a>
 <a href="https://top.gg/bot/632291800585076761" >
-  <img src="https://top.gg/api/widget/status/632291800585076761.svg" alt="Cowboish bot" />
-</a>
-<a href="https://top.gg/bot/632291800585076761" >
   <img src="https://top.gg/api/widget/owner/632291800585076761.svg" alt="Cowboish bot" />
 </a>
 <a href="https://discord.gg/YWcSukS">
@@ -14,10 +11,6 @@
 </a>
 
 ![https://discord.gg/YWcSukS](pics/blurdiscord.jpg)
-
-<img src="pics/blurdiscord.jpg"
-     alt="Discord"
-     style="float: left; margin-right: 10px;" />
 
 ● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
