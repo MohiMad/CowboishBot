@@ -15,6 +15,10 @@
 
 ![https://discord.gg/YWcSukS](pics/blurdiscord.jpg)
 
+<img src="pics/blurdiscord.jpg"
+     alt="Discord"
+     style="float: left; margin-right: 10px;" />
+
 ● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
 ● Bunch of fun Identity V related commands :D
