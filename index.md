@@ -12,11 +12,11 @@
 <a href="https://top.gg/bot/632291800585076761" >
   <img src="https://top.gg/api/widget/owner/632291800585076761.svg" alt="Cowboish bot" />
 </a>
-
----
 <a href="https://discord.gg/YWcSukS">
     <img src="https://img.shields.io/discord/636241255994490900.svg?colorB=Blue&logo=discord&label=Cowboish_server&style=for-the-badge" alt="Support">
 </a>
+
+![Dicord](pics/blurdiscord.jpg)
 
 ● Cowboish bot is the first 24/7 online hosted Identity V discord bot made by me >:D aka (**Mohi**)
 
@@ -94,7 +94,7 @@ Create fun images/memes of your own avatar/others as well :D
 
 - ``>slap`` ➤ Yes you guessed it, slap your friends or yourself :v |
 
-- ``>ingamechat`` ➤ Type something to send to the ingame chat
+- ``>ingamechat`` ➤ Type something to send to the ingame chat |
 
 ---
 ### 🛠 Moderation🛠
