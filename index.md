@@ -7,9 +7,6 @@
   <img src="https://top.gg/api/widget/status/632291800585076761.svg" alt="Cowboish bot" />
 </a>
 <a href="https://top.gg/bot/632291800585076761" >
-  <img src="https://top.gg/api/widget/upvotes/632291800585076761.svg" alt="Cowboish bot" />
-</a>
-<a href="https://top.gg/bot/632291800585076761" >
   <img src="https://top.gg/api/widget/owner/632291800585076761.svg" alt="Cowboish bot" />
 </a>
 <a href="https://discord.gg/YWcSukS">
