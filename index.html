@@ -1,554 +1,466 @@
 <!DOCTYPE html>
 <html style="scroll-behavior: smooth">
-  <head>
-    <title>Cowboish-Bot</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  </head>
-  <body
-    data-spy="scroll"
-    data-target=".navbar"
-    data-offset="300"
-    class="bg-dark"
-  >
-    <header>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="#">
-          <i class="fas fa-user-circle"></i> <strong>MohiMoo</strong></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a
-                class="btn nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <i class="fas fa-exclamation-circle"></i> Features
-              </a>
-              <div
-                class="dropdown-menu bg-dark text-center"
-                aria-labelledby="navbarDropdown"
-              >
-                <a class="btn btn-secondary bg-dark text-white dropdown-item" href="#cowboishbotfeaturette">Cowboish Bot</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn" href="#about">
-                <i class="fas fa-address-card"></i> About me
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-primary text-white"
-                href="https://discord.gg/YWcSukS"
-                target="_blank"
-                ><i class="fas fa-question-circle"></i> Support
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
 
-    <main role="main">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block"
-              src="pics/blurdiscord.jpg"
-              width="100%"
-              height="400"
-              alt="First slide"
-            />
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>The only Discord bot your server need</h1>
-                <p class="d-none d-sm-block">
-                  Moderation, fun, greet/leave messages and Identity V
-                  all put together into one bot!
-                </p>
-                <p>
-                  <a
-                    class="btn btn-lg btn-primary"
-                    href="#featurette"
-                    role="button"
-                    >Get started</a
-                  >
-                </p>
-              </div>
+<head>
+  <title>Cowboish-Bot</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="300" class="bg-dark">
+  <header>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-user-circle"></i> <strong>MohiMoo</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="btn nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-exclamation-circle"></i> Features
+            </a>
+            <div class="dropdown-menu bg-dark text-center" aria-labelledby="navbarDropdown">
+              <a class="btn btn-secondary bg-dark text-white dropdown-item" href="#cowboishbotfeaturette">Cowboish
+                Bot</a>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src=pics/idv.png
-              width="100%"
-              height="400"
-              alt="Second slide"
-            />
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Bring life to your Identity V server!</h1>
-                <p class="d-none d-sm-block">
-                  If your server's main topic is Identity V,
-                  then you need to have Cowboish Bot in it!
-                </p>
-                <p>
-                  <a
-                    class="btn btn-lg btn-primary"
-                    href="#cowboishbotfeaturette"
-                    role="button"
-                    >Learn more</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block"
-              src="./pics/wait.jpg"
-              width="100%"
-              height="400"
-              alt="Third slide"
-            />
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>Cowboish Community!</h1>
-                <p class="d-none d-sm-block">
-                  Still confused?
-                </p>
-                <p>
-                  <a
-                    class="btn btn-lg btn-primary"
-                    href="https://discord.gg/YWcSukS"
-                    target="_blank"
-                    role="button"
-                    >Visit Cowboish server</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#myCarousel"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#myCarousel"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#about">
+              <i class="fas fa-address-card"></i> About me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary text-white" href="https://discord.gg/YWcSukS" target="_blank"><i
+                class="fas fa-question-circle"></i> Support
+            </a>
+          </li>
+        </ul>
       </div>
-      <br />
+    </nav>
+  </header>
 
-      <!--Marketing section-->
-      <div
-        id="featurette"
-        class="container-fluid marketing text-center bg-light"
-      >
-        <!-- Three columns of text below the carousel -->
-          <!-- /.col-lg-4 -->
-        <hr class="featurette-divider" />
-
-        <div id="cowboishbotfeaturette" class="row featurette bg-dark">
-          <div class="col-md-5 order-md-2">
-            <br />
-            <img
-              class="rounded-circle"
-              width="280"
-              height="280"
-              src="./pics/cowbot.png"
-            />
-          </div>
-          <div class="col-md-7 order-md-1">
-            <br />
-            <h2 class="featurette-heading" style="color: rgb(157, 201, 241)">
-              Cowboish bot
-              <span class="text-secondary">Features</span>
-            </h2>
-            <div class="container lead text-white">
-              <ul>
-                <li>Play Identity V on discord</li>
-                <li>Hug, bully, lasso your friends!</li>
-                <li>Set a channel where the bot greets/say goodbye to new member/leavers</li>
-              </ul>
-              <br />
-              <a
-                class="btn btn-primary"
-                href="https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102"
-                role="button"
-                target="_blank"
-              >
-                <i class="fab fa-discord"></i> Add to server
-              </a>
-              <button
-                class="btn btn-secondary"
-                type="button"
-                data-toggle="collapse"
-                data-target="#CowboishbotCommands"
-                aria-expanded="false"
-                aria-controls="CowboishbotCommands"
-              >
-                <i class="fas fa-exclamation-circle"></i> Commands »
-              </button>
+  <main role="main">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block" src="pics/blurdiscord.jpg" width="100%" height="400" alt="First slide" />
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>The only Discord bot your server need</h1>
+              <p class="d-none d-sm-block">
+                Moderation, fun, greet/leave messages and Identity V
+                all put together into one bot!
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#featurette" role="button">Get started</a>
+              </p>
             </div>
           </div>
-
-          <div
-            id="CowboishbotCommands"
-            class="container bg-dark collapse text-light order-sm-3"
-          >
-            <br />
-            <table class="table-responsive table-sm table-hover table-bordered table-dark table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">Command</th>
-                  <th scope="col">Description</th>
-                  <th scope="col">Example</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><b>Fun commands</b></td>
-                  <td><b>Commands that are made for fun sake, that's it!</b></td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>meme</td>
-                  <td>Check some new hot memes</td>
-                  <td><code>>meme</code></td>
-                </tr>
-                <tr>
-                  <td>joke</td>
-                  <td>Wanna hear a joke?</td>
-                  <td><code>>joke</code></td>
-                </tr>
-                <tr>
-                  <td>say</td>
-                  <td>
-                    Let the bot repeat what you just said 
-                  </td>
-                  <td><code>>say heheboi</code></td>
-                </tr>
-                <tr>
-                  <tr>
-                    <td>▔▔▔▔▔▔</td>
-                    <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
-                    <td><code>▔▔▔▔▔▔</code></td>
-                  </tr>
-                  <td><b>Identity V commands</b></td>
-                  <td><b>Identity V related commands</b></td>
-                  <td><code> </code></td>
-                </tr>
-                <td>identfiy</td>
-                  <td>Identity V stereotypes (Which one are you?)</td>
-                  <td><code>>identfiy</code></td>
-                </tr>
-                <tr>
-                  <td>roll20</td>
-                  <td>Roll a 20 sided dice since you can't do that ingame</td>
-                  <td><code>>roll20</code></td>
-                </tr>
-                <td>essence</td>
-                  <td>Open an essence, choose between ("s8-1", "s8-2", "p5-1", "p5-2" or "s9")</td>
-                  <td><code>>essence s8-1</code></td>
-                </tr>
-                <tr>
-                  <td>randomize</td>
-                  <td>Confused which survivor/hunter to buy?</td>
-                  <td><code>>randomize hunter</code></td>
-                </tr>
-                <tr>
-                  <td>idv</td>
-                  <td>Sends a random post from the subreddit r/Identity V</td>
-                  <td><code>>idv</code></td>
-                </tr>
-                <tr>
-                  <td>▔▔▔▔▔▔</td>
-                  <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
-                  <td><code>▔▔▔▔▔▔</code></td>
-                </tr>
-                <td><b>Identity V action commands</b></td>
-                  <td><b>Identity V roleplay commands</b></td>
-                  <td><code> </code></td>
-                </tr>
-                <tr>
-                  <td>lasso</td>
-                  <td>lasso your friends >:D</td>
-                  <td><code>>lasso [targetHERE]></code></td>
-                </tr>
-                <tr>
-                  <td>bully</td>
-                  <td>Bully your friends cuz why not</td>
-                  <td><code>>bully [targetHERE]</code></td>
-                </tr>
-                <tr>
-                  <td>shoot</td>
-                  <td>Shoot your friend with a flare gun >:3</td>
-                  <td>
-                    <code>>shoot [targetHERE]</code>
-                  </td>
-                </tr>
-                <tr>
-                  <td>stun</td>
-                  <td>Stun your friend with a pallet</td>
-                  <td><code>>stun [targetHERE]</code></td>
-                </tr>
-                <tr>
-                  <td>crash</td>
-                  <td>Crashes on the tagged person (lethal crash)</td>
-                  <td><code>>crash [targetHERE]</code></td>
-                </tr>
-                <tr>
-                  <td>terrorshock</td>
-                  <td>Terrorshock the tagged person >:3</td>
-                  <td><code>>terrorshock [targetHERE]</code></td>
-                </tr>
-                <tr>
-                  <td>blink</td>
-                  <td>Blink yo friends >:D</td>
-                  <td><code>>blink [targetHERE]</code></td>
-                </tr>
-                <tr>
-                  <td>hug</td>
-                  <td>After all of these toxic commands, i had to create a hug command</td>
-                  <td><code>>hug [targetHERE]</code></td>
-                </tr>
-                <tr>
-                  <td>▔▔▔▔▔▔</td>
-                  <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
-                  <td><code>▔▔▔▔▔▔</code></td>
-                </tr>
-                <tr>
-                <td><b>Identity V logicpath commands</b></td>
-                  <td><b>A category where you get to play matches, roll dices, open essences and much more</b></td>
-                  <td><code> </code></td>
-                </tr>
-                <tr>
-                  <td>daily</td>
-                  <td>Get your daily reward, 24 hours cooldown</td>
-                  <td><code>>daily</code></td>
-                </tr>
-                <tr>
-                  <td>hunt</td>
-                  <td>Hunt as the Hunter to get some dices</td>
-                  <td><code>>hunt [hunterName]</code></td>
-                </tr>
-                <tr>
-                  <td>quick</td>
-                  <td>Play a quick match as a survivor to get dices</td>
-                  <td><code>>quick [survivorName]</code></td>
-                </tr>
-                <tr>
-                  <td>roll</td>
-                  <td>Roll the 4-sided dice you just got, rewards may be (essences, inspirations, clues)</td>
-                  <td><code>>roll</code></td>
-                </tr>
-                <tr>
-                  <td>open</td>
-                  <td>Open this season's current essences (S/A skins are saved and fragments are obtainale)</td>
-                  <td><code>>open s9-1</code></td>
-                </tr>
-                <tr>
-                  <td>logicpath</td>
-                  <td>Check your logicpath status (Dice amount etc)</td>
-                  <td><code>>LP | >logicpath</code></td>
-                </tr>
-                <tr>
-                  <td>shop</td>
-                  <td>Take a look at what you can buy with (clues, inspirations)</td>
-                  <td><code>>shop [listName]</code></td>
-                </tr>
-                <tr>
-                  <td>buy</td>
-                  <td>Buy what you want from the shop</td>
-                  <td><code>>buy cowboy</code></td>
-                </tr>
-                <tr>
-                  <td>leaderboard</td>
-                  <td>Check the top 5 players of Cowboish bot's LP category</td>
-                  <td><code>>leaderboard | >LD guild</code></td>
-                </tr>
-                <tr>
-                  <td>▔▔▔▔▔▔</td>
-                  <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
-                  <td><code>▔▔▔▔▔▔</code></td>
-                </tr>
-                <tr>
-                  <td><b>Image manipulation</b></td>
-                    <td><b>Images/memes edited by the bot depending on your message/avatar</b></td>
-                    <td><code> </code></td>
-                  </tr>
-                  <tr>
-                    <td>ingamechat</td>
-                    <td>Type something to send to the ingame chat</td>
-                    <td><code>>ingamechat Yeee Haaaw</code></td>
-                  </tr>
-                  <tr>
-                    <td>chair</td>
-                    <td>Make your friends sit on that rocket chair >:v</td>
-                    <td><code>>chair [tagHere]</code></td>
-                  </tr>
-                  <tr>
-                    <td>slap</td>
-                    <td>Give your friends a slap, im a legend for doing this xD</td>
-                    <td><code>>slap [tagHere]</code></td>
-                  </tr>
-                  <tr>
-                    <td>▔▔▔▔▔▔</td>
-                    <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
-                    <td><code>▔▔▔▔▔▔</code></td>
-                  </tr>
-                  <tr>
-                    <td><b>Moderation</b></td>
-                      <td><b>A category made for server Admins and moderators</b></td>
-                      <td><code> </code></td>
-                    </tr>
-                    <tr>
-                      <td>kick</td>
-                      <td>Kick the tagged member from the server</td>
-                      <td><code>>kick [tagHere]</code></td>
-                    </tr>
-                    <tr>
-                      <td>ban</td>
-                      <td>Ban the tagged member from the server</td>
-                      <td><code>>kick [tagHere]</code></td>
-                    </tr>
-                    <tr>
-                      <td>clear</td>
-                      <td>Delete a specified amount of messages</td>
-                      <td><code>>clear 25</code></td>
-                    </tr>
-                    <tr>
-                      <td>mute</td>
-                      <td>Mute the tagged member for a specified amount of time</td>
-                      <td><code>>mute [tagHere] [amount s/m/d]</code></td>
-                    </tr>
-                    <tr>
-                      <td>▔▔▔▔▔▔</td>
-                      <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
-                      <td><code>▔▔▔▔▔▔</code></td>
-                    </tr>
-                    <tr>
-                      <td><b>Utility</b></td>
-                        <td><b>Utility commands (informations and memberManagement)</b></td>
-                        <td><code> </code></td>
-                      </tr>
-                      <tr>
-                        <td>userinfo</td>
-                        <td>Check some information about your/others account</td>
-                        <td><code>>userinfo [tagHere]</code></td>
-                      </tr>
-                      <tr>
-                        <td>serverinfo</td>
-                        <td>Check some info about the server ur in</td>
-                        <td><code>>serverinfo</code></td>
-                      </tr>
-                      <tr>
-                        <td>setup</td>
-                        <td>Setup welcome/leave channel and welcome/leave message</td>
-                        <td><code>>setup [toSetup] [channel/message]</code></td>
-                      </tr>
-                      <tr>
-                        <td>▔▔▔▔▔▔</td>
-                        <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
-                        <td><code>▔▔▔▔▔▔</code></td>
-                      </tr>
-                      <tr>
-                        <td><b>Config</b></td>
-                          <td><b>Configuration commands for the bot's sake</b></td>
-                          <td><code> </code></td>
-                        </tr>
-                        <tr>
-                          <td>ping</td>
-                          <td>Check the bot's reply speed and if it's online</td>
-                          <td><code>>ping</code></td>
-                        </tr>
-                        <tr>
-                          <td>help</td>
-                          <td>Check all the bot's commands</td>
-                          <td><code>>help | >help [category]</code></td>
-                        </tr>
-                        <tr>
-                          <td>suggest</td>
-                          <td>Send a suggestion to Mohi :)</td>
-                          <td><code>>suggest [suggestion here]</code></td>
-                        </tr>
-                        <tr>
-                          <td>info</td>
-                          <td>See some of the bot's information</td>
-                          <td><code>>info</code></td>
-                        </tr>
-                        <tr>
-                          <td>guilds</td>
-                          <td>See how many guilds, channels, members the bot is serving</td>
-                          <td><code>>guilds</code></td>
-                        </tr>
-              </tbody>
-            </table>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src=pics/idv.png width="100%" height="400" alt="Second slide" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Bring life to your Identity V server!</h1>
+              <p class="d-none d-sm-block">
+                If your server's main topic is Identity V,
+                then you need to have Cowboish Bot in it!
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#cowboishbotfeaturette" role="button">Learn more</a>
+              </p>
+            </div>
           </div>
         </div>
-        <i class="fas fa-exclamation-circle"></i> <del>Commands »</del>
+        <div class="carousel-item">
+          <img class="d-block" src="./pics/wait.jpg" width="100%" height="400" alt="Third slide" />
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Cowboish Community!</h1>
+              <p class="d-none d-sm-block">
+                Still confused?
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="https://discord.gg/YWcSukS" target="_blank" role="button">Visit
+                  Cowboish server</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <br />
+
+    <!--Marketing section-->
+    <div id="featurette" class="container-fluid marketing text-center bg-light">
+      <!-- Three columns of text below the carousel -->
+      <!-- /.col-lg-4 -->
+      <hr class="featurette-divider" />
+
+      <div id="cowboishbotfeaturette" class="row featurette bg-dark">
+        <div class="col-md-5 order-md-2">
+          <br />
+          <img class="rounded-circle" width="280" height="280" src="./pics/cowbot.png" />
+        </div>
+        <div class="col-md-7 order-md-1">
+          <br />
+          <h2 class="featurette-heading" style="color: rgb(157, 201, 241)">
+            Cowboish bot
+            <span class="text-secondary">Features</span>
+          </h2>
+          <div class="container lead text-white">
+            <ul>
+              <li>Play Identity V on discord</li>
+              <li>Hug, bully, lasso your friends!</li>
+              <li>Set a channel where the bot greets/say goodbye to new member/leavers</li>
+            </ul>
+            <br />
+            <a class="btn btn-primary"
+              href="https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102"
+              role="button" target="_blank">
+              <i class="fab fa-discord"></i> Add to server
+            </a>
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#CowboishbotCommands"
+              aria-expanded="false" aria-controls="CowboishbotCommands">
+              <i class="fas fa-exclamation-circle"></i> Commands »
+            </button>
+          </div>
+        </div>
+
+        <div id="CowboishbotCommands" class="container bg-dark collapse text-light order-sm-3">
+          <br />
+          <table class="table-responsive table-sm table-hover table-bordered table-dark table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Command</th>
+                <th scope="col">Description</th>
+                <th scope="col">Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>Fun commands</b></td>
+                <td><b>Commands that are made for fun sake, that's it!</b></td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>meme</td>
+                <td>Check some new hot memes</td>
+                <td><code>>meme</code></td>
+              </tr>
+              <tr>
+                <td>joke</td>
+                <td>Wanna hear a joke?</td>
+                <td><code>>joke</code></td>
+              </tr>
+              <tr>
+                <td>say</td>
+                <td>
+                  Let the bot repeat what you just said
+                </td>
+                <td><code>>say heheboi</code></td>
+              </tr>
+              <tr>
+              <tr>
+                <td>▔▔▔▔▔▔</td>
+                <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
+                <td><code>▔▔▔▔▔▔</code></td>
+              </tr>
+              <td><b>Identity V commands</b></td>
+              <td><b>Identity V related commands</b></td>
+              <td><code> </code></td>
+              </tr>
+              <td>identfiy</td>
+              <td>Identity V stereotypes (Which one are you?)</td>
+              <td><code>>identfiy</code></td>
+              </tr>
+              <tr>
+                <td>roll20</td>
+                <td>Roll a 20 sided dice since you can't do that ingame</td>
+                <td><code>>roll20</code></td>
+              </tr>
+              <td>essence</td>
+              <td>Open an essence, choose between ("s8-1", "s8-2", "p5-1", "p5-2" or "s9")</td>
+              <td><code>>essence s8-1</code></td>
+              </tr>
+              <tr>
+                <td>randomize</td>
+                <td>Confused which survivor/hunter to buy?</td>
+                <td><code>>randomize hunter</code></td>
+              </tr>
+              <tr>
+                <td>idv</td>
+                <td>Sends a random post from the subreddit r/Identity V</td>
+                <td><code>>idv</code></td>
+              </tr>
+              <tr>
+                <td>▔▔▔▔▔▔</td>
+                <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
+                <td><code>▔▔▔▔▔▔</code></td>
+              </tr>
+              <td><b>Identity V action commands</b></td>
+              <td><b>Identity V roleplay commands</b></td>
+              <td><code> </code></td>
+              </tr>
+              <tr>
+                <td>lasso</td>
+                <td>lasso your friends >:D</td>
+                <td><code>>lasso [targetHERE]></code></td>
+              </tr>
+              <tr>
+                <td>bully</td>
+                <td>Bully your friends cuz why not</td>
+                <td><code>>bully [targetHERE]</code></td>
+              </tr>
+              <tr>
+                <td>shoot</td>
+                <td>Shoot your friend with a flare gun >:3</td>
+                <td>
+                  <code>>shoot [targetHERE]</code>
+                </td>
+              </tr>
+              <tr>
+                <td>stun</td>
+                <td>Stun your friend with a pallet</td>
+                <td><code>>stun [targetHERE]</code></td>
+              </tr>
+              <tr>
+                <td>crash</td>
+                <td>Crashes on the tagged person (lethal crash)</td>
+                <td><code>>crash [targetHERE]</code></td>
+              </tr>
+              <tr>
+                <td>terrorshock</td>
+                <td>Terrorshock the tagged person >:3</td>
+                <td><code>>terrorshock [targetHERE]</code></td>
+              </tr>
+              <tr>
+                <td>blink</td>
+                <td>Blink yo friends >:D</td>
+                <td><code>>blink [targetHERE]</code></td>
+              </tr>
+              <tr>
+                <td>hug</td>
+                <td>After all of these toxic commands, i had to create a hug command</td>
+                <td><code>>hug [targetHERE]</code></td>
+              </tr>
+              <tr>
+                <td>▔▔▔▔▔▔</td>
+                <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
+                <td><code>▔▔▔▔▔▔</code></td>
+              </tr>
+              <tr>
+                <td><b>Identity V logicpath commands</b></td>
+                <td><b>A category where you get to play matches, roll dices, open essences and much more</b></td>
+                <td><code> </code></td>
+              </tr>
+              <tr>
+                <td>daily</td>
+                <td>Get your daily reward, 24 hours cooldown</td>
+                <td><code>>daily</code></td>
+              </tr>
+              <tr>
+                <td>hunt</td>
+                <td>Hunt as the Hunter to get some dices</td>
+                <td><code>>hunt [hunterName]</code></td>
+              </tr>
+              <tr>
+                <td>quick</td>
+                <td>Play a quick match as a survivor to get dices</td>
+                <td><code>>quick [survivorName]</code></td>
+              </tr>
+              <tr>
+                <td>roll</td>
+                <td>Roll the 4-sided dice you just got, rewards may be (essences, inspirations, clues)</td>
+                <td><code>>roll</code></td>
+              </tr>
+              <tr>
+                <td>open</td>
+                <td>Open this season's current essences (S/A skins are saved and fragments are obtainale)</td>
+                <td><code>>open s9-1</code></td>
+              </tr>
+              <tr>
+                <td>logicpath</td>
+                <td>Check your logicpath status (Dice amount etc)</td>
+                <td><code>>LP | >logicpath</code></td>
+              </tr>
+              <tr>
+                <td>shop</td>
+                <td>Take a look at what you can buy with (clues, inspirations)</td>
+                <td><code>>shop [listName]</code></td>
+              </tr>
+              <tr>
+                <td>buy</td>
+                <td>Buy what you want from the shop</td>
+                <td><code>>buy cowboy</code></td>
+              </tr>
+              <tr>
+                <td>leaderboard</td>
+                <td>Check the top 5 players of Cowboish bot's LP category</td>
+                <td><code>>leaderboard | >LD guild</code></td>
+              </tr>
+              <tr>
+                <td>▔▔▔▔▔▔</td>
+                <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
+                <td><code>▔▔▔▔▔▔</code></td>
+              </tr>
+              <tr>
+                <td><b>Image manipulation</b></td>
+                <td><b>Images/memes edited by the bot depending on your message/avatar</b></td>
+                <td><code> </code></td>
+              </tr>
+              <tr>
+                <td>ingamechat</td>
+                <td>Type something to send to the ingame chat</td>
+                <td><code>>ingamechat Yeee Haaaw</code></td>
+              </tr>
+              <tr>
+                <td>chair</td>
+                <td>Make your friends sit on that rocket chair >:v</td>
+                <td><code>>chair [tagHere]</code></td>
+              </tr>
+              <tr>
+                <td>slap</td>
+                <td>Give your friends a slap, im a legend for doing this xD</td>
+                <td><code>>slap [tagHere]</code></td>
+              </tr>
+              <tr>
+                <td>▔▔▔▔▔▔</td>
+                <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
+                <td><code>▔▔▔▔▔▔</code></td>
+              </tr>
+              <tr>
+                <td><b>Moderation</b></td>
+                <td><b>A category made for server Admins and moderators</b></td>
+                <td><code> </code></td>
+              </tr>
+              <tr>
+                <td>kick</td>
+                <td>Kick the tagged member from the server</td>
+                <td><code>>kick [tagHere]</code></td>
+              </tr>
+              <tr>
+                <td>ban</td>
+                <td>Ban the tagged member from the server</td>
+                <td><code>>kick [tagHere]</code></td>
+              </tr>
+              <tr>
+                <td>clear</td>
+                <td>Delete a specified amount of messages</td>
+                <td><code>>clear 25</code></td>
+              </tr>
+              <tr>
+                <td>mute</td>
+                <td>Mute the tagged member for a specified amount of time</td>
+                <td><code>>mute [tagHere] [amount s/m/d]</code></td>
+              </tr>
+              <tr>
+                <td>▔▔▔▔▔▔</td>
+                <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
+                <td><code>▔▔▔▔▔▔</code></td>
+              </tr>
+              <tr>
+                <td><b>Utility</b></td>
+                <td><b>Utility commands (informations and memberManagement)</b></td>
+                <td><code> </code></td>
+              </tr>
+              <tr>
+                <td>userinfo</td>
+                <td>Check some information about your/others account</td>
+                <td><code>>userinfo [tagHere]</code></td>
+              </tr>
+              <tr>
+                <td>serverinfo</td>
+                <td>Check some info about the server ur in</td>
+                <td><code>>serverinfo</code></td>
+              </tr>
+              <tr>
+                <td>setup</td>
+                <td>Setup welcome/leave channel and welcome/leave message</td>
+                <td><code>>setup [toSetup] [channel/message]</code></td>
+              </tr>
+              <tr>
+                <td>▔▔▔▔▔▔</td>
+                <td>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</td>
+                <td><code>▔▔▔▔▔▔</code></td>
+              </tr>
+              <tr>
+                <td><b>Config</b></td>
+                <td><b>Configuration commands for the bot's sake</b></td>
+                <td><code> </code></td>
+              </tr>
+              <tr>
+                <td>ping</td>
+                <td>Check the bot's reply speed and if it's online</td>
+                <td><code>>ping</code></td>
+              </tr>
+              <tr>
+                <td>help</td>
+                <td>Check all the bot's commands</td>
+                <td><code>>help | >help [category]</code></td>
+              </tr>
+              <tr>
+                <td>suggest</td>
+                <td>Send a suggestion to Mohi :)</td>
+                <td><code>>suggest [suggestion here]</code></td>
+              </tr>
+              <tr>
+                <td>info</td>
+                <td>See some of the bot's information</td>
+                <td><code>>info</code></td>
+              </tr>
+              <tr>
+                <td>guilds</td>
+                <td>See how many guilds, channels, members the bot is serving</td>
+                <td><code>>guilds</code></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
       </button>
     </div>
-  </div>
-</div>
-<div id="about" class="container text-center bg-white">
-  <br />
-  <h2 class="featurette-heading">
-            About <span class="text-muted">Me</span>
-          </h2>
-          <p class="lead">
+    </div>
+    </div>
+    <div id="about" class="container text-center bg-white">
+      <br />
+      <h2 class="featurette-heading">
+        About <span class="text-muted">Me</span>
+      </h2>
+      <p class="lead">
 
-            Heyooo i'm MohiMoo, The Cowboish bot developer :D
-            So i started coding this bot a while ago where i thought that there weren't any Identity V discord bots
-            so i thought i will create one cuz why not, at first i took it for fun, 
-            but after a while i started enjoying seeing people using commands/a bot i implemented :D
-            And now i think i'm just addicted to it 💕
-          </p>
-          <br />
+        Heyooo i'm MohiMoo, The Cowboish bot developer :D
+        So i started coding this bot a while ago where i thought that there weren't any Identity V discord bots
+        so i thought i will create one cuz why not, at first i took it for fun,
+        but after a while i started enjoying seeing people using commands/a bot i implemented :D
+        And now i think i'm just addicted to it 💕
+      </p>
+      <br />
+
 </html>
