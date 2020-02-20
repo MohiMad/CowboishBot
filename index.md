@@ -69,8 +69,6 @@ Of course! Identity v commands must be available in order for **Cowboish bot** t
 
 - ``>idv`` ➤ sends a random post from the reddit r/Identity V |
 
-- ``>ingamechat`` ➤ Send a message to the ingame chat | image manipulation
-
 ---
 ### Identity V Actions
 Identity V actions... just like any other roleplay commands but in Identity V :v
@@ -89,7 +87,14 @@ Identity V actions... just like any other roleplay commands but in Identity V :v
 
 - ``>blink`` ➤ Use blink on your friends and prove to them that u r not boosted |
 
+### 📷 Image Manipulation 📷
+Create fun images/memes of your own avatar/others as well :D
+
 - ``>chair`` ➤ Chair yo friends using this command :D |
+
+- ``>slap`` ➤ Yes you guessed it, slap your friends or yourself :v |
+
+- ``>ingamechat`` ➤ Type something to send to the ingame chat
 
 ---
 ### 🛠 Moderation🛠
