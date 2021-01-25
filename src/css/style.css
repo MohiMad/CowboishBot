@@ -46,21 +46,17 @@ body, html {
   margin-left: 3%
 }
 
-.headerImages {
-  width: 25px;
-  height: 25px;
-  margin-right: 5px;
-}
-
-.headerText {
-  font-size: smaller;
+.Page {
+  font-size: larger;
   color: whitesmoke;
   margin-top: 5px;
   margin-left: 5px;
   margin-right: 5px;
 }
-
-.headerText:hover {
+.Page a {
+  color:#F72A2A;
+}
+.Page a:hover {
   color: wheat;
 }
 
