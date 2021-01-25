@@ -22,11 +22,9 @@
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
   <link rel="stylesheet" type="text/css" href="./src/css/style.css">
 
-  <script>
-    $(function () {
-      $("#features").load("src/html/features.html");
-    });
-  </script>
+  <script type="text/javascript" src="./src/js/loadSections.js"></script>
+  <script type="text/javascript" src="./src/js/chair.js"></script>
+  <script type="text/javascript" src="./src/js/switchPage.js"></script>
 
 </head>
 
@@ -38,8 +36,6 @@
           <img class="headerImages" src="https://i.imgur.com/0PWqgxy.png" alt="Cowboish Bot Source Code">
           Source Code
         </a></li>
-
-
       <li class="nav-item"><a class="headerText nav-link" href="https://discord.gg/YWcSukS" target="_blank">
           <img class="headerImages" src="https://i.imgur.com/YyvkRMr.png" alt="Support Server For Cowboish Bot">
           Support Server
@@ -82,28 +78,13 @@
   <button onclick="topFunction()" id="chairButton" title="Go to top">
     <img src="https://i.imgur.com/j3MGZUz.png" alt="chair">
   </button>
-  <script type="text/javascript" src="./src/js/chair.js"></script>
+
   <div id="features"></div>
-  <script type="text/javascript" src="./src/js/switchPage.js"></script>
-  <div id="commands" style="display: none;" class="container bg-dark collapse text-light order-sm-3">
-    <p>Haw</p>
-  </div>
-  <div id="mohi" style="display: none;" class="container bg-dark collapse text-light order-sm-3">
-    <h3>
-      <span style="color:wheat">About Me >:3</span>
-    </h3>
-    <p>
-      <span style="color:white">
-        Heyooo i'm Mohi!
-        <br>The Cowboish bot developer :D
-        <br>A while ago, me and my friends created a discord server, added bots and started chatting. When i was
-        looking for other cool bots, i googled up "Identity V discord bot" and nothing from my expectations popped up
-        :'C
-        <br>This was the main reason for me to create the "Cowboish Bot" :3
-        <br>
-      </span>
-    </p>
-  </div>
+
+  <div id="commands" style="display: none;" class="container bg-dark collapse text-light order-sm-3"></div>
+  <!-- We separate every section and grab it from it's file -->
+  <div id="mohi" style="display: none;" class="container bg-dark collapse text-light order-sm-3"></div>
+
   <footer>
     <div class="footer card text-center">
       <div class="card-body">
