@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html style="scroll-behavior: smooth" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="Keywords"
     content="cowboish,cowboishbot,cowboish bot,identityv,idv,identity,discord,bot,discord bot,identity v discord bot">
   <meta name="Description" content="Cowboish bot is an Identity V Discord bot made for the idv game Community!">
@@ -22,16 +23,16 @@
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
   <link rel="stylesheet" type="text/css" href="./src/css/style.css">
-
-  <script type="text/javascript" src="./src/js/loadSections.js"></script>
+  
   <script type="text/javascript" src="./src/js/switchPage.js"></script>
+  <script type="text/javascript" src="./src/js/loadSections.js"></script>
 
 </head>
 
 <body data-spy="scroll" class="bg-dark">
   <header>
     <ul class="nav nav-tabs">
-      <li><a class="Page btn btn-primary" data-scroll="#features" href="#features" onclick="switchPage('features')">
+      <li><a class="Page btn btn-primary" href="#" onclick="switchPage('#')">
           <i class="fas fa-home"></i>
         </a></li>
       <li class="Page nav-item"><a class="headerText nav-link" href="https://github.com/MohiMad/Cowboish-Bot"
@@ -48,13 +49,13 @@
           Invite Cowboish
         </a>
       </li>
-      <li class="Page nav-item"><a class="headerText nav-link" data-scroll="#commands" href="#commands"
-          onclick="switchPage('commands')">
+      <li class="Page nav-item"><a class="headerText nav-link" href="#commands"
+          onclick="switchPage('#commands')">
           Commands
         </a>
       </li>
-      <li class="Page nav-item"><a class="headerText nav-link" data-scroll="#mohi" href="#mohi"
-          onclick="switchPage('mohi')">
+      <li class="Page nav-item"><a class="headerText nav-link" href="#mohi"
+          onclick="switchPage('#mohi')">
           About Mohi
         </a>
       </li>
@@ -72,10 +73,10 @@
         role="button" target="_blank">
         <i class="fab fa-discord"></i> Invite Bot
       </a>
-      <a class="hero-button btn btn-primary" data-scroll="#features" href="#features" onclick="switchPage('features')">
+      <a class="hero-button btn btn-primary" href="#features" onclick="switchPage('#features')">
         <i class="fas fa-angle-right"></i> Features
       </a>
-      <a class="hero-button btn btn-primary" data-scroll="#commands" href="#commands" onclick="switchPage('commands')">
+      <a class="hero-button btn btn-primary" href="#commands" onclick="switchPage('#commands')">
         <i class="far fa-question-circle"></i> Commands
       </a>
 
@@ -95,7 +96,7 @@
       <div class="card-body">
         <h5 class="card-title">Wonder where to go now?</h5>
         <ul class="footerlinks">
-          <li class="nav-item"><a data-scroll="#commands" href="#commands" onclick="switchPage('commands')">Commands</a>
+          <li class="nav-item"><a href="#commands" onclick="switchPage('#commands')">Commands</a>
           </li>
           <li class="nav-item"><a
               href="https://discord.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102">Invite

@@ -190,5 +190,41 @@ footer a:hover {
   margin-top: 5%;
 }
 #commands  {
+  margin: 5%;
+  text-align: center;
+}
+
+/*Right here*/
+table {
+  text-align: center;
+  right: 50%;
+  left: 50%;
+}
+.collapsible {
+  background-color: #27282B;
+  color: wheat;
+  cursor: pointer;
+  padding: 2%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: rgb(57, 61, 73);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  background-color: #27282B;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.content p {
+  color: #27282B;
   text-align: center;
 }
