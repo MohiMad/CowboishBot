@@ -41,6 +41,15 @@ function switchPage(id) {
 
     }
 
+    function easeInOutCubic(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) {
+            return c / 2 * t * t * t + b;
+        }
+        t -= 2;
+        return c / 2 * (t * t * t + 2) + b;
+    };
+
     if (id !== "#") {
         const targetPosition = page.offsetTop ? page.offsetTop : 0;
         const startPosition = window.pageYOffset;
@@ -48,27 +57,25 @@ function switchPage(id) {
         const duration = 1000;
         let start = null;
 
-        window.requestAnimationFrame(step);
-
         function step(timestamp) {
-            if (!start) start = timestamp;
+            if (!start) {
+                start = timestamp;
+            }
             const progress = timestamp - start;
 
             window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
-            if (progress < duration) window.requestAnimationFrame(step);
+            if (progress < duration) {
+                window.requestAnimationFrame(step);
+            }
 
         }
+
+        window.requestAnimationFrame(step);
+
     } else {
         window.scrollTo({
             top: 0,
             behavior: "smooth"
         });
     }
-
-    function easeInOutCubic(t, b, c, d) {
-        t /= d / 2;
-        if (t < 1) return c / 2 * t * t * t + b;
-        t -= 2;
-        return c / 2 * (t * t * t + 2) + b;
-    };
 }
