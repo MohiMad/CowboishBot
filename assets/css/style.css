@@ -5,21 +5,20 @@
 }
 
 body, html {
-  /* scroll-behavior: smooth; */
   height: 100%;
+  width: auto;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 .navbar {
   background-color: #302f2f;
-  color: #fff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   width: 100%;
-  height: 50px;
+  height: 55px;
+  border: solid #302f2f 1px;
   line-height: 50px;
   font-size: 18px;
   padding: 0 30px;
-  position: fixed;
+  position: top;
   top: 0;
   left: 0;
   z-index: 10;
@@ -27,22 +26,8 @@ body, html {
 
 .navbar a {
   text-decoration: none;
+  border-bottom: 1px solid #ff6868;
   color: #ffffff;
-}
-
-.navbar a.navbar-brand {
-  float: left;
-  height: inherit;
-  line-height: inherit;
-  padding: 0 30px;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-.navbar a.navbar-brand span {
-  font-size: 28px;
-  font-weight: 700;
 }
 
 .navbar ul {
@@ -65,89 +50,11 @@ body, html {
 }
 
 .navbar ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 0, 0, 0.15);
 }
 
 .navbar .navbar-toggler {
   display: none;
-}
-
-.navbar:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-@media (max-width: 991px) {
-  .navbar ul {
-    padding: 0 10px;
-  }
-  .navbar ul li a {
-    min-width: 100px;
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 767px) {
-  .navbar {
-    padding: 0;
-  }
-  .navbar ul {
-    width: 100%;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.9);
-    height: auto;
-    max-height: 0;
-    overflow: hidden;
-    transition: all ease-in-out 0.3s;
-  }
-  .navbar ul.open {
-    max-height: 100vh;
-  }
-  .navbar ul li {
-    width: 100%;
-    /* border-bottom: 1px solid rgba(255,255,255,0.3); */
-  }
-  .navbar ul li a {
-    padding: 0;
-  }
-  .navbar .navbar-toggler {
-    display: block;
-    position: absolute;
-    height: 40px;
-    top: 5px;
-    right: 20px;
-    background-color: transparent;
-    color: #fff;
-    border: 3px solid #fff;
-    border-radius: 4px;
-    outline: none;
-    padding: 0 5px;
-    cursor: pointer;
-  }
-  .navbar .navbar-toggler span, .navbar .navbar-toggler span::before, .navbar .navbar-toggler span::after {
-    display: block;
-    content: '';
-    background-color: #fff;
-    height: 3px;
-    width: 28px;
-    border-radius: 4px;
-    transition: all ease-in-out 0.3s;
-  }
-  .navbar .navbar-toggler span::before {
-    transform: translateY(-8px);
-  }
-  .navbar .navbar-toggler span::after {
-    transform: translateY(5px);
-  }
-  .navbar .navbar-toggler.open-navbar-toggler span {
-    background-color: transparent;
-    transform: scale(0.85) rotate(270deg);
-  }
-  .navbar .navbar-toggler.open-navbar-toggler span::before {
-    transform: translateY(0px) scale(0.75) rotate(45deg);
-  }
-  .navbar .navbar-toggler.open-navbar-toggler span::after {
-    transform: translateY(-3px) scale(0.75) rotate(-45deg);
-  }
 }
 
 .hero-image {
@@ -160,11 +67,11 @@ body, html {
 }
 
 .hero-text {
-  text-align: left;
-  padding-left: 50px;
+  text-align: center;
   position: absolute;
-  top: 60%;
+  top: auto;
   left: 50%;
+  right: auto;
   transform: translate(-50%, -50%);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -179,22 +86,21 @@ body, html {
 }
 
 .cowboishimage {
-  text-align: center;
-  margin: auto;
-  padding-top: 7%;
-  width: 20%;
-  display: block;
-  size: smaller;
+  background-image: url("../img/cowboish.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*Make the image smaller depending on width*/
+  max-width: 100%;
+  height: 60%;
 }
 
 .hero-button {
-  right: 50%;
-  left: 50%;
-  margin: 0.5%;
-  margin-left: 3%;
+  display: fixed;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
-/* .Page {
+.Page {
   font-size: larger;
   color: whitesmoke;
   margin-top: 5px;
@@ -207,7 +113,7 @@ body, html {
 }
 .Page a:hover {
   color: wheat;
-} */
+}
 
 .feature {
   padding-top: 10%;
@@ -288,12 +194,11 @@ em {
 .btn {
   padding: 1%;
   font-size: 20px;
-
 }
+
 .btn i {
   height: 20px;
   width: 20px;
-
 }
 
 .endPage a {
@@ -408,4 +313,117 @@ table {
 .content p {
   color: #27282B;
   text-align: center;
+}
+
+/* We keep the media changes at the bottom so they don't get overwritten but overwrite instead  */
+
+@media (max-width: 991px) {
+  .cowboishimage {
+    height: 70%;
+  }
+  .hero-text {
+    top: 70%;
+  }
+  .navbar ul {
+    padding: 0 10px;
+  }
+  .navbar ul li a {
+    min-width: 100px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cowboishimage {
+    background-size: 40%;
+    height: 60%;
+  }
+  .hero-text {
+    top: 70%;
+  }
+
+  .feature img {
+    position: center;
+    width: 90%;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar ul {
+    width: 100%;
+    padding: 0;
+    background-color: rgba(230, 34, 34, 0.9);
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+  }
+  .navbar ul.open {
+    max-height: 100vh;
+  }
+  .navbar ul li {
+    width: 100%;
+    border: 1px solid rgba(24, 22, 22, 0.3);
+  }
+  .navbar ul li a {
+    padding: 0;
+  }
+  .navbar .navbar-toggler {
+    display: block;
+    position: fixed;
+    height: 40px;
+    top: 7px;
+    right: 15px;
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    outline: none;
+    padding: 0 5px;
+    cursor: pointer;
+  }
+  .navbar .navbar-toggler span, .navbar .navbar-toggler span::before, .navbar .navbar-toggler span::after {
+    display: block;
+    content: '';
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 28px;
+    border-radius: 4px;
+    transition: all ease-in-out 0.3s;
+  }
+  .navbar .navbar-toggler span::before {
+    transform: translateY(-8px);
+  }
+  .navbar .navbar-toggler span::after {
+    transform: translateY(5px);
+  }
+  .navbar .navbar-toggler.open-navbar-toggler span {
+    background-color: transparent;
+    transform: scale(0.85) rotate(270deg);
+  }
+  .navbar .navbar-toggler.open-navbar-toggler span::before {
+    transform: translateY(0px) scale(0.75) rotate(45deg);
+  }
+  .navbar .navbar-toggler.open-navbar-toggler span::after {
+    transform: translateY(-3px) scale(0.75) rotate(-45deg);
+  }
+}
+@media (max-width: 425px) {
+  .cowboishimage {
+    background-size: 50%;
+    height: 50%;
+  }
+  .hero-button{
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .cowboishimage {
+    background-size: 65%;
+    height: 65%;
+  }
+  .hero-text {
+    top: 75%;
+  }
+  
 }

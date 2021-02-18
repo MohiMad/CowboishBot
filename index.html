@@ -31,11 +31,12 @@
 <body data-spy="scroll" class="bg-dark">
   <header>
     <nav id="navbar" class="navbar">
-      <a href="#" class="navbar-brand"></a>
       <ul>
         <li><a href="https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102" target="_blank">Invite Bot</a></li>
         <li><a href="#commands" onclick="switchPage('#commands')">Commands</a></li>
         <li><a href="#mohi" onclick="switchPage('#mohi')">About Mohi</a></li>
+        <li><a href="#features" onclick="switchPage('#features')">Features</a></li>
+
       </ul>
       <button class="navbar-toggler">
         <span></span>
@@ -44,21 +45,20 @@
   </header>
   <script type="text/javascript" src="./assets/js/toggleHeader.js"></script>
   <div class="hero-image">
-    <img class="cowboishimage" src="./assets/img/cowboish.png">
+    <div class="cowboishimage"></div>
     <div class="hero-text">
-
       <p class="hero-p"><em>Cowboish Bot</em> is an Identity V Discord bot with all possible features to power your
         Discord server up with!</p>
       <br>
-      <a style="margin-left: 15%" class="hero-button btn btn-primary"
+      <a class="hero-button btn btn-danger"
         href="https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102"
         role="button" target="_blank">
         <i class="fab fa-discord"></i> Invite Bot
       </a>
-      <a class="hero-button btn btn-primary" href="#features" onclick="switchPage('#features')">
+      <a class="hero-button btn btn-danger" href="#features" onclick="switchPage('#features')">
         <i class="fas fa-angle-right"></i> Features
       </a>
-      <a class="hero-button btn btn-primary" href="#commands" onclick="switchPage('#commands')">
+      <a class="hero-button btn btn-danger" href="#commands" onclick="switchPage('#commands')">
         <i class="far fa-question-circle"></i> Commands
       </a>
 
