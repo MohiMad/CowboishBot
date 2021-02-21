@@ -12,27 +12,31 @@
   <meta property="og:title" content="Cowboish bot | Identity V Discord Bot">
   <meta property="og:description"
     content="Cowboish bot is an Identity V Discord bot with a lot of features to power your Discord Server up with!">
-  <meta property="og:image" content="./assets/img/cowboish.png">
+  <meta property="og:image" content="./src/img/cowboish.png">
   <meta property="og:color" content="#ED2414">
 
   <title>Cowboish Bot | Identity V Discord Bot</title>
-  <link rel="icon" href="./assets/img/cowboish.png" type="png">
+  <link rel="icon" href="./src/img/cowboish.png" type="png">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <script type="text/javascript" defer src="./src/js/loadSections.js" ></script>
+  <script type="text/javascript" defer src="./src/js/switchPage.js" ></script>
+  <script type="text/javascript" defer src="./src/js/toggleHeader.js" ></script>
+  <script type="text/javascript" defer src="./src/js/chair.js" ></script>
 
-  <script type="text/javascript" src="./assets/js/loadSections.js"></script>
-  <script type="text/javascript" src="./assets/js/switchPage.js"></script>
 </head>
-
 <body data-spy="scroll" class="bg-dark">
   <header>
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a href="https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102" target="_blank">Invite Bot</a></li>
+        <li><a
+            href="https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102"
+            target="_blank">Invite Bot</a></li>
         <li><a href="#commands" onclick="switchPage('#commands')">Commands</a></li>
         <li><a href="#mohi" onclick="switchPage('#mohi')">About Mohi</a></li>
         <li><a href="#features" onclick="switchPage('#features')">Features</a></li>
@@ -43,7 +47,7 @@
       </button>
     </nav>
   </header>
-  <script type="text/javascript" src="./assets/js/toggleHeader.js"></script>
+
   <div class="hero-image">
     <div class="cowboishimage"></div>
     <div class="hero-text">
@@ -65,9 +69,8 @@
     </div>
   </div>
   <button onclick="topFunction()" id="chairButton" title="Go to top">
-    <img src="./assets/img/chair.png" alt="chair">
+    <img src="./src/img/chair.png" alt="chair">
   </button>
-  <script type="text/javascript" src="./assets/js/chair.js"></script>
 
   <div id="features"></div>
   <div id="commands" style="display: none;" class="container bg-dark collapse text-light order-sm-3"></div>
