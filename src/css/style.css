@@ -11,10 +11,10 @@ body, html {
 }
 
 .navbar {
-  background-color: #343A40;
+  background-color: #343a40;
   width: 100%;
   height: 55px;
-  border: solid #343A40 1px;
+  border: solid #343a40 1px;
   line-height: 50px;
   font-size: 18px;
   padding: 0 30px;
@@ -109,9 +109,10 @@ body, html {
 }
 
 .Page a {
-  color:#F72A2A;
+  color: #F72A2A;
 }
-.Page a:hover {
+
+footer .Page a:hover {
   color: wheat;
 }
 
@@ -136,7 +137,7 @@ em {
 }
 
 .feature img {
-  outline: 2px solid #1A1C1F;
+  outline: 2px solid #1a1c1f;
 }
 
 .feature p {
@@ -172,7 +173,7 @@ em {
 }
 
 .footer {
-  background-color: #27282B;
+  background-color: #27282b;
   color: wheat;
   height: 500px;
 }
@@ -241,7 +242,7 @@ footer a:hover {
 }
 
 #mohi img {
-  outline: 2px solid #1A1C1F;
+  outline: 2px solid #1a1c1f;
   width: 50%;
   text-align: center;
   height: 25%;
@@ -284,7 +285,7 @@ table {
 }
 
 .collapsible {
-  background-color: #27282B;
+  background-color: #27282b;
   color: wheat;
   cursor: pointer;
   padding: 2%;
@@ -304,14 +305,14 @@ table {
 /* Style the collapsible content. Note: hidden by default */
 
 .content {
-  background-color: #27282B;
+  background-color: #27282b;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
 .content p {
-  color: #27282B;
+  color: #27282b;
   text-align: center;
 }
 
@@ -341,7 +342,6 @@ table {
   .hero-text {
     top: 70%;
   }
-
   .feature img {
     position: center;
     width: 90%;
@@ -400,8 +400,7 @@ table {
   .navbar .navbar-toggler.open-navbar-toggler span {
     background-color: transparent;
     transform: scale(0.85) rotate(270deg);
-  } 
-  
+  }
   .navbar .navbar-toggler.open-navbar-toggler span::before {
     transform: translateY(0px) scale(0.75) rotate(45deg);
   }
@@ -409,15 +408,17 @@ table {
     transform: translateY(-3px) scale(0.75) rotate(-45deg);
   }
 }
+
 @media (max-width: 425px) {
   .cowboishimage {
     background-size: 50%;
     height: 50%;
   }
-  .hero-button{
+  .hero-button {
     display: none;
   }
 }
+
 @media (max-width: 425px) {
   .cowboishimage {
     background-size: 65%;
@@ -426,5 +427,4 @@ table {
   .hero-text {
     top: 75%;
   }
-  
 }
