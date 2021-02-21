@@ -1,0 +1,2 @@
+# cowboishbot
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d17a1057eb84a5fbdafb9eef481f852)](https://app.codacy.com/gh/MohiMad/cowboishbot?utm_source=github.com&utm_medium=referral&utm_content=MohiMad/cowboishbot&utm_campaign=Badge_Grade)
