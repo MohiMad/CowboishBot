@@ -368,9 +368,10 @@ table {
   .navbar ul li a {
     padding: 0;
   }
+
   .navbar .navbar-toggler {
     display: block;
-    position: fixed;
+    position: absolute;
     height: 40px;
     top: 7px;
     right: 15px;
@@ -382,6 +383,7 @@ table {
     padding: 0 5px;
     cursor: pointer;
   }
+
   .navbar .navbar-toggler span, .navbar .navbar-toggler span::before, .navbar .navbar-toggler span::after {
     display: block;
     content: '';
