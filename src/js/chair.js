@@ -3,7 +3,7 @@ const chair = document.getElementById("chairButton");
 
 function scrollFunction() {
 
-  if (window.innerWidth < 630 || document.documentElement.clientWidth < 630 || document.body.clientWidth < 630) {
+  if (window.innerWidth <= 768 || document.documentElement.clientWidth <= 768 || document.body.clientWidth <= 768) {
     return chair.style.display = "none";
   }
 

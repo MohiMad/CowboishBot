@@ -6,7 +6,6 @@
 
 body, html {
   height: 100%;
-  width: auto;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -175,7 +174,6 @@ em {
 .footer {
   background-color: #27282b;
   color: wheat;
-  height: 500px;
 }
 
 .footerlinks {
@@ -215,7 +213,6 @@ footer a {
   font-size: large;
   padding: 1% 1%;
   color: thistle;
-  margin-bottom: 5%;
 }
 
 footer a:hover {
@@ -224,15 +221,14 @@ footer a:hover {
 
 #mohi {
   text-align: left;
+  flex: content;
   margin-left: 10%;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: large;
-  padding: 0.5% 0.5%;
 }
 
-#mohi h3 {
-  color: wheat;
+#mohi p {
+  font-size: larger;
 }
 
 #mohi b {
@@ -241,38 +237,47 @@ footer a:hover {
   color: thistle;
 }
 
-#mohi img {
-  outline: 2px solid #1a1c1f;
-  width: 50%;
-  text-align: center;
-  height: 25%;
+#mohi li {
+  list-style-type: none;
 }
 
-.addme {
-  font-size: larger;
+#mohi img {
+  outline: 2px solid #1a1c1f;
+  width: 75%;
 }
 
 .backHome {
   padding: 1.5%;
-  font-size: x-large;
-  margin-top: 5%;
+  font-size: larger;
+  margin-top: 3%;
 }
 
-.widgetContainer {
-  float: left;
-}
-
-#topgg {
-  margin: 0.5%;
+.Container {
+  position: relative;
+  top: 20px;
+  left: 0;
+  size: auto;
 }
 
 #discordSupport {
+  top: 0;
+  margin-bottom: 20px;
   outline: solid #3b3737;
+  float: left;
   background-color: #555555;
+}
+
+#topgg {
+  position: none;
+  top: 15%;
 }
 
 #commands {
   margin: 5%;
+  text-align: center;
+}
+
+.card-footer {
   text-align: center;
 }
 
@@ -368,7 +373,6 @@ table {
   .navbar ul li a {
     padding: 0;
   }
-
   .navbar .navbar-toggler {
     display: block;
     position: absolute;
@@ -383,7 +387,6 @@ table {
     padding: 0 5px;
     cursor: pointer;
   }
-
   .navbar .navbar-toggler span, .navbar .navbar-toggler span::before, .navbar .navbar-toggler span::after {
     display: block;
     content: '';
@@ -409,6 +412,10 @@ table {
   .navbar .navbar-toggler.open-navbar-toggler span::after {
     transform: translateY(-3px) scale(0.75) rotate(-45deg);
   }
+  #mohi {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -419,6 +426,11 @@ table {
   .hero-button {
     display: none;
   }
+  #mohi {
+    margin-left: 1%;
+    font-size: 13px;
+    margin-top: 5%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -428,5 +440,11 @@ table {
   }
   .hero-text {
     top: 75%;
+  }
+}
+
+@media(max-width: 320px) {
+  #topgg {
+    display: none;
   }
 }
