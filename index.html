@@ -26,12 +26,12 @@
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
   <script type="text/javascript" defer src="./src/js/loadSections.js"></script>
   <script type="text/javascript" defer src="./src/js/switchPage.js"></script>
+  <script type="text/javascript" defer src="./src/js/onload.js"></script>
   <script type="text/javascript" defer src="./src/js/toggleHeader.js"></script>
   <script type="text/javascript" defer src="./src/js/chair.js"></script>
-
 </head>
 
-<body data-spy="scroll" class="bg-dark">
+<body data-spy="scroll" class="bg-dark" defer onload="onload();">
   <header>
     <nav id="navbar" class="navbar">
       <ul>
@@ -41,6 +41,7 @@
         <li><a href="#commands" onclick="switchPage('#commands')">Commands</a></li>
         <li><a href="#mohi" onclick="switchPage('#mohi')">About Mohi</a></li>
         <li><a href="#features" onclick="switchPage('#features')">Features</a></li>
+        <li><a href="#privacypolicy" onclick="switchPage('#privacypolicy')">Privacy Policy</a></li>
 
       </ul>
       <button class="navbar-toggler">
@@ -52,7 +53,7 @@
   <div class="hero-image">
     <div class="cowboishimage"></div>
     <div class="hero-text">
-      <p class="hero-p"><em>Cowboish Bot</em> is an Identity V Discord bot with all possible features to power your
+      <p class="hero-p"><span>Cowboish Bot</span> is an Identity V Discord bot with all possible features to power your
         Discord server up with!</p>
       <br>
       <a class="hero-button btn btn-danger"
@@ -73,27 +74,28 @@
     <img src="./src/img/chair.png" alt="chair">
   </button>
 
-  <div id="features"></div>
+  <div id="features" style="display: none;"></div>
   <div id="commands" style="display: none;" class="container bg-dark collapse text-light order-sm-3"></div>
   <!-- We separate every section and grab it from it's file -->
   <div id="mohi" style="display: none;" class="container bg-dark collapse text-light order-sm-3"></div>
+  <div id="privacypolicy" style="display: block;"></div>
   <footer>
     <div class="Container">
-    <div class="footer card text-center">
-      <div class="card-body">
-        <ul class="footerlinks">
-          <li class="nav-item"><a href="#commands" onclick="switchPage('#commands')">Commands</a>
-          </li>
-          <li class="nav-item"><a href="#mohi" onclick="switchPage('#mohi')">About Me</a>
-          </li>
-          <li class="nav-item"><a
-              href="https://discord.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102"
-              target="_blank">Invite
-              Bot</a></li>
-          <li class="nav-item"><a href="https://discord.com/invite/YWcSukS" target="_blank">Support Server</a></li>
-          <li class="nav-item"><a href="https://github.com/MohiMad/Cowboish-Bot" target="_blank">Source Code</a></li>
-        </ul>
-        
+      <div class="footer card text-center">
+        <div class="card-body">
+          <ul class="footerlinks">
+            <li class="nav-item"><a href="#commands" onclick="switchPage('#commands')">Commands</a>
+            </li>
+            <li class="nav-item"><a href="#mohi" onclick="switchPage('#mohi')">About Me</a>
+            </li>
+            <li class="nav-item"><a
+                href="https://discord.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102"
+                target="_blank">Invite
+                Bot</a></li>
+            <li class="nav-item"><a href="https://discord.com/invite/YWcSukS" target="_blank">Support Server</a></li>
+            <li class="nav-item"><a href="https://github.com/MohiMad/Cowboish-Bot" target="_blank">Source Code</a></li>
+          </ul>
+
           <a class="widget" id="discordSupport" href="https://discord.gg/YWcSukS">
             <img alt="Discord"
               src="https://img.shields.io/discord/636241255994490900?color=green&label=Cowboish%20Server&logo=discord&style=for-the-badge">
@@ -104,7 +106,7 @@
         </div>
       </div>
       <div class="card-footer text-muted">
-        Cowboish Bot © 2021 Mohi ~ Last updated: 06.03.2021
+        Cowboish Bot © 2021 Mohi ~ Last updated: 15.03.2021
       </div>
     </div>
   </footer>

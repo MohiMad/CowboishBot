@@ -129,7 +129,7 @@ footer .Page a:hover {
   color: antiquewhite;
 }
 
-em {
+span {
   color: #F72A2A;
   font-size: larger;
   font-style: normal;
@@ -246,6 +246,25 @@ footer a:hover {
   width: 75%;
 }
 
+#privacypolicy {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+#privacypolicy h2{
+  margin-top: 20px;
+  color:rgb(252, 50, 50)
+
+}
+
+#privacypolicy p {
+  color: white;
+  font-size: large;
+  
+}
+
+
 .backHome {
   padding: 1.5%;
   font-size: larger;
@@ -298,27 +317,22 @@ table {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 17px;
+  margin-top: 8px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
 }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
 .active, .collapsible:hover {
-  background-color: rgb(57, 61, 73);
+  background-color: rgb(8, 8, 8);
 }
-
-/* Style the collapsible content. Note: hidden by default */
 
 .content {
-  background-color: #27282b;
+  background-color: #161616;
   max-height: 0;
   overflow: hidden;
+  color: white;
   transition: max-height 0.2s ease-out;
-}
-
-.content p {
-  color: #27282b;
-  text-align: center;
 }
 
 /* We keep the media changes at the bottom so they don't get overwritten but overwrite instead  */
