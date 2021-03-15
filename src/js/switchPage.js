@@ -2,7 +2,9 @@ function switchPage(id) {
 
     const page = document.getElementById(id.replace("#", ""));
 
-    if (!page) return;
+    if (!page) {
+        return document.getElementById("features").style.display = "block";
+    }
 
     if (page != null) {
         page.addEventListener("click", function (event) {
