@@ -25,7 +25,7 @@ body, html {
 
 .navbar a {
   text-decoration: none;
-  border-bottom: 1px solid #ff6868;
+  border-bottom: 2px solid #ff6868;
   color: #ffffff;
 }
 
@@ -54,6 +54,14 @@ body, html {
 
 .navbar .navbar-toggler {
   display: none;
+}
+
+.navbar .navbar-toggler div {
+  width: 40px;
+  height: 3px;
+  background-color: rgb(248, 248, 248);
+  margin: 8px;
+  transition: all 0.3s ease;
 }
 
 .hero-image {
@@ -88,9 +96,20 @@ body, html {
   background-image: url("../img/cowboish.png");
   background-position: center;
   background-repeat: no-repeat;
-  /*Make the image smaller depending on width*/
   max-width: 100%;
   height: 60%;
+}
+
+.clickable {
+  position: relative;
+  top: 10%;
+  left: 39%;
+  width: 300px;
+  border-radius: 90%;
+  right: auto;
+  background-color: transparent;
+  max-width: 50%;
+  height: 80%;
 }
 
 .hero-button {
@@ -252,18 +271,15 @@ footer a:hover {
   margin-right: 5%;
 }
 
-#privacypolicy h2{
+#privacypolicy h2 {
   margin-top: 20px;
-  color:rgb(252, 50, 50)
-
+  color: rgb(252, 50, 50)
 }
 
 #privacypolicy p {
   color: white;
   font-size: large;
-  
 }
-
 
 .backHome {
   padding: 1.5%;
@@ -354,6 +370,9 @@ table {
 }
 
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .cowboishimage {
     background-size: 40%;
     height: 60%;
@@ -366,65 +385,57 @@ table {
     width: 90%;
   }
   .navbar {
+    position: sticky;
+    height: 11vh;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    width: 50%;
     padding: 0;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
   }
   .navbar ul {
+    visibility: hidden;
+    padding-right: 0;
+  }
+  .navbar li {
+    margin: 10px;
     width: 100%;
     padding: 0;
-    background-color: rgba(230, 34, 34, 0.9);
-    height: auto;
-    max-height: 0;
-    overflow: hidden;
-    transition: all ease-in-out 0.3s;
-  }
-  .navbar ul.open {
-    max-height: 100vh;
-  }
-  .navbar ul li {
-    width: 100%;
-    border: 1px solid rgba(24, 22, 22, 0.3);
+    right: 0;
+    padding-top: 20px;
+    margin: 0;
+    background-color: #343a40;
+    opacity: 0;
   }
   .navbar ul li a {
-    padding: 0;
+    text-align: left;
   }
   .navbar .navbar-toggler {
     display: block;
-    position: absolute;
-    height: 40px;
-    top: 7px;
-    right: 15px;
-    background-color: transparent;
-    color: #fff;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    outline: none;
-    padding: 0 5px;
     cursor: pointer;
+    position: absolute;
+    right: 10px;
   }
-  .navbar .navbar-toggler span, .navbar .navbar-toggler span::before, .navbar .navbar-toggler span::after {
-    display: block;
-    content: '';
-    background-color: rgb(255, 255, 255);
-    height: 3px;
-    width: 28px;
-    border-radius: 4px;
-    transition: all ease-in-out 0.3s;
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
-  .navbar .navbar-toggler span::before {
-    transform: translateY(-8px);
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-7px, 8px);
   }
-  .navbar .navbar-toggler span::after {
-    transform: translateY(5px);
+  .toggle .line2 {
+    opacity: 0;
   }
-  .navbar .navbar-toggler.open-navbar-toggler span {
-    background-color: transparent;
-    transform: scale(0.85) rotate(270deg);
-  }
-  .navbar .navbar-toggler.open-navbar-toggler span::before {
-    transform: translateY(0px) scale(0.75) rotate(45deg);
-  }
-  .navbar .navbar-toggler.open-navbar-toggler span::after {
-    transform: translateY(-3px) scale(0.75) rotate(-45deg);
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-7px, -8px);
   }
   #mohi {
     margin-left: 5%;

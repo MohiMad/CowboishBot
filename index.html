@@ -26,6 +26,7 @@
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
   <script type="text/javascript" defer src="./src/js/loadSections.js"></script>
   <script type="text/javascript" defer src="./src/js/switchPage.js"></script>
+  <script type="text/javascript" defer src="./src/js/yeehaw.js"></script>
   <script type="text/javascript" defer src="./src/js/onload.js"></script>
   <script type="text/javascript" defer src="./src/js/toggleHeader.js"></script>
   <script type="text/javascript" defer src="./src/js/chair.js"></script>
@@ -34,6 +35,11 @@
 <body data-spy="scroll" class="bg-dark" defer onload="onload();">
   <header>
     <nav id="navbar" class="navbar">
+      <div class="navbar-toggler">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <ul>
         <li><a
             href="https://discordapp.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102"
@@ -44,14 +50,20 @@
         <li><a href="#privacypolicy" onclick="switchPage('#privacypolicy')">Privacy Policy</a></li>
 
       </ul>
-      <button class="navbar-toggler">
-        <span></span>
-      </button>
     </nav>
   </header>
 
   <div class="hero-image">
-    <div class="cowboishimage"></div>
+    <div class="cowboishimage">
+      <div class="clickable">
+        <audio id="yeehaw0">
+          <source src="../src/audio/yeehaw0.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="yeehaw1">
+          <source src="../src/audio/yeehaw1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
     <div class="hero-text">
       <p class="hero-p"><span>Cowboish Bot</span> is an Identity V Discord bot with all possible features to power your
         Discord server up with!</p>
@@ -87,6 +99,8 @@
             <li class="nav-item"><a href="#commands" onclick="switchPage('#commands')">Commands</a>
             </li>
             <li class="nav-item"><a href="#mohi" onclick="switchPage('#mohi')">About Me</a>
+            </li>
+            <li class="nav-item"><a href="#privacypolicy" onclick="switchPage('#privacypolicy')">Privacy Policy</a>
             </li>
             <li class="nav-item"><a
                 href="https://discord.com/oauth2/authorize?client_id=632291800585076761&scope=bot&permissions=268758102"

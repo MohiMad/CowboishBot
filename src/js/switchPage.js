@@ -51,6 +51,9 @@ function switchPage(id) {
             }
 
         }
+        const navbarToggler = document.querySelector(".navbar-toggler");
+    
+
 
         window.requestAnimationFrame(step);
 
