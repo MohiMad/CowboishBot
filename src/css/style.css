@@ -312,6 +312,12 @@ footer a:hover {
   text-align: center;
 }
 
+#getCommands {
+  position: relative;
+  left: 10%;
+  right: auto;
+}
+
 .card-footer {
   text-align: center;
 }
