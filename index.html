@@ -23,16 +23,17 @@
   <link rel="stylesheet" type="text/css" href="./src/css/style.css">
 
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script type="text/javascript" defer src="./src/js/loadSections.js"></script>
   <script type="text/javascript" defer src="./src/js/switchPage.js"></script>
   <script type="text/javascript" defer src="./src/js/yeehaw.js"></script>
   <script type="text/javascript" defer src="./src/js/onload.js"></script>
   <script type="text/javascript" defer src="./src/js/toggleHeader.js"></script>
+  <script type="text/javascript" defer src="./src/js/lightSwitch.js"></script>
   <script type="text/javascript" defer src="./src/js/chair.js"></script>
 </head>
 
-<body data-spy="scroll" class="bg-dark" defer onload="onload();">
+<body data-spy="scroll"  defer onload="onload();">
   <header>
     <nav id="navbar" class="navbar">
       <div class="navbar-toggler">
@@ -48,8 +49,16 @@
         <li><a href="#mohi" onclick="switchPage('#mohi')">About Mohi</a></li>
         <li><a href="#features" onclick="switchPage('#features')">Features</a></li>
         <li><a href="#privacypolicy" onclick="switchPage('#privacypolicy')">Privacy Policy</a></li>
-
       </ul>
+      <div class="lightSwitch">
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+        </span>
+      </label>
+      </div>
     </nav>
   </header>
 
@@ -87,9 +96,9 @@
   </button>
 
   <div id="features" style="display: none;"></div>
-  <div id="commands" style="display: none;" class="container bg-dark collapse text-light order-sm-3"></div>
+  <div id="commands" style="display: none;" ></div>
   <!-- We separate every section and grab it from it's file -->
-  <div id="mohi" style="display: none;" class="container bg-dark collapse text-light order-sm-3"></div>
+  <div id="mohi" style="display: none;"></div>
   <div id="privacypolicy" style="display: none;"></div>
   <footer>
     <div class="Container">
@@ -120,7 +129,7 @@
         </div>
       </div>
       <div class="card-footer text-muted">
-        Cowboish Bot © 2021 Mohi ~ Last updated: 15.03.2021
+        <p>Cowboish Bot © 2021 Mohi ~ Last updated: 15.03.2021</p>
       </div>
     </div>
   </footer>
