@@ -144,6 +144,7 @@ header {
 
 input i .fa-sun {
   display: none;
+  opacity: 0;
 }
 
 input:checked+.slider {
